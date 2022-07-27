@@ -73,8 +73,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;
         $mail->IsSMTP(); //Send using SMTP
         $mail->Host = 'myschoolapp.co.ke'; //Set the SMTP server to send through
-        $mail->Username = 'info@myschoolapp.co.ke'; //SMTP username
-        $mail->Password = 'Info@#2022'; //SMTP password
+        $mail->Username = '*******'; //SMTP username
+        $mail->Password = '*****'; //SMTP password
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; //Enable implicit TLS encryption
         $mail->Port = 465; //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
